@@ -34,3 +34,4 @@ class CollectionField:
     protected: bool = False
     thumbs: list[str] = field(default_factory=list)
     values: list[str] = field(default_factory=list)
+    cost: int | None = None # from password field
